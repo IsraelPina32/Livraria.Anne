@@ -12,7 +12,7 @@ public class App {
             P.setano(1901);
             P.setpreco(35);
     
-            System.out.println("\nTitulo seu Livro: " + P.gettitulo() + "\nNumero de paginas: " + P.getnumpags() + "\nO Ano do lançamento: " + P.getano() + "\nO Preço desse livro: " + P.getpreco() + ".");
+            System.out.println("\nTitulo do seu Livro: " + P.gettitulo() + "\nNumero de paginas: " + P.getnumpags() + "\nO Ano do lançamento: " + P.getano() + "\nO Preço desse livro: " + P.getpreco() + ".");
             
             Livro S = new Livro();
             S.settitulo("Anne De Windy Poplays");
@@ -26,7 +26,6 @@ public class App {
                 String nome = ler.nextLine();
                 System.out.println("\n Digite o novo numero de paginas do seu livro ");
                 int A1 = ler.nextInt();
-                P.settitulo(nome);
                 System.out.println("\n Digite o novo ano do seu livro ");
                 int A2 = ler.nextInt();
                 System.out.println("\n Digite o preço do seu livro");
